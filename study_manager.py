@@ -1,9 +1,7 @@
 from file_handler import read_subjects, write_subject
 
 def add_subject():
-    print("NEW VERSION RUNNING")
     subject = input("Enter subject name: ").strip()
-
     if subject == "":
         print("Subject name cannot be empty.")
         return
