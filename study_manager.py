@@ -16,7 +16,30 @@ def add_subject():
 
 
 def log_study_hours():
-    pass
+    subjects = read_subjects()
+
+    if not subjects:
+        print("No subjects found. Please add a subject first.")
+        return
+
+    subject = input("Enter subject name: ").strip()
+
+    if subject not in subjects:
+        print("Subject not found. Please add it first.")
+        return
+
+    try:
+        hours = float(input("Enter study hours: "))
+        if hours <= 0:
+            print("Hours must be greater than zero.")
+            return
+    except ValueError:
+        print("Invalid hours entered.")
+        return
+
+    write_study_log(subject, hours)
+    print("Study hours logged successfully.")
+
 
 
 def view_progress():
