@@ -1,4 +1,4 @@
-from file_handler import read_subjects, write_subject
+from file_handler import read_subjects, write_subject, write_study_log
 
 def add_subject():
     subject = input("Enter subject name: ").strip()
