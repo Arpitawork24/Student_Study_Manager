@@ -1,3 +1,7 @@
+from study_manager import add_subject
+from study_manager import log_study_hours
+from study_manager import view_progress
+
 def show_menu():
     print("\n--- Student Study Manager ---")
     print("1. Add Subject")
@@ -12,11 +16,11 @@ def main():
         choice = input("Enter your choice: ")
 
         if choice == "1":
-            pass
+            add_subject()
         elif choice == "2":
-            pass
+            log_study_hours()
         elif choice == "3":
-            pass
+            view_progress()
         elif choice == "4":
             print("Exiting program...")
             break
