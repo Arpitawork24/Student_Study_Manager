@@ -103,7 +103,7 @@ Integrate a database instead of text files
 Author:
 Arpita Sutariya
 Second-year Computer Science Engineering student
-GitHub: https://github.com/Arpitawork24
+GitHub: https://github.com/Arpitawork24   
 LinkedIn: https://www.linkedin.com/in/arpita-sutariya-3181b6314
 
 This project represents my learning journey in Python and my focus on building strong programming fundamentals.
